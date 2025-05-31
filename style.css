@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(18, 53, 4);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;    
+    height: 89px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding:0 10px;
+}
+
+nav{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+#logo img{
+    padding-right: 7px;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 10px;
+    background-image: url(girl-with-black-headphone-a09f6yk2y3h937yo.jpg);
+    
+    background-size: cover;
+}
+
+.bottom{
+    position:sticky;
+    height: 115px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#myProgressBar{
+    width: 114vh;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 20px;
+   cursor:pointer;
+}
+.al{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    border-radius: 23px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+
+}
+.songItem img{
+    width: 70px;
+    height: 70px;
+}
+.timeStamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.songName{
+    margin: 5px 0;
+    position:absolute;
+    left: 22vw;
+}
